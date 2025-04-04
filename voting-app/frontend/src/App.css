@@ -1,0 +1,36 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  .App {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    margin: 50px auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h1 {
+    color: #003087; /* Blue */
+  }
+  input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border: 2px solid #d32f2f; /* Red */
+    border-radius: 5px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #d32f2f; /* Red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #b71c1c;
+  }
+  .success { color: #003087; } /* Blue */
+  .error { color: #d32f2f; } /* Red */
